@@ -6,7 +6,7 @@ from deepface import DeepFace
 from scipy.spatial.distance import cosine
 
 # -------------------- AYARLAR --------------------
-RTSP_URL = "rtsp://fatihemredurgun@hotmail.com:Fatihemre*1i.@192.168.1.108/stream1"  # 0 = webcam. 1 veya 2 harici kamera olabilir.
+RTSP_URL = ""  # 0 = webcam. 1 veya 2 harici kamera olabilir.
 MODEL_NAME = "Facenet"
 DETECTOR = "opencv"
 DB_PATH = "data/faces"
